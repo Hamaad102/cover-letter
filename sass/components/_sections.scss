@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: $watermelon;
+  overflow: hidden;
+}
+
+p{
+  font-family: $oswald;
+  color: $black;
+  font-weight: 300;
+  text-align: left;
+  transition: all 1s;
+  font-size: 30px;
+}
+
+.highlight{
+  color: $white;
+}
+
+#introduction{
+  transition: all 1s;
+  transform-origin: left top;
+  #salute{
+    font-size: 240px;
+    font-weight: 400!important;
+    padding-bottom: 45px;
+    line-height: 110%;
+  }
+  #userPrompt{
+    text-align: center!important;
+    transition: all 0.5s!important;
+  }
+}
+
+#paraOne{
+  margin-left: 5px;
+  transition: all 1s;
+  transform: translateY(120vh);
+  transform-origin: left top;
+}
+
+#paraTwo{
+  margin-left: 5px;
+  transition: all 1s;
+  transform: translateY(120vh);
+  transform-origin: left top;
+}
+
+#paraThree{
+  margin-left: 5px;
+  transition: all 1s;
+  transform: translateY(120vh);
+  transform-origin: left top;
+}
+
+#paraFour{
+  margin-left: 5px;
+  transition: all 1s;
+  transform: translateY(120vh);
+  transform-origin: left top;
+}
+
+#paraFive{
+  margin-left: 5px;
+  transition: all 1s;
+  transform: translateY(120vh);
+  transform-origin: left top;
+}
